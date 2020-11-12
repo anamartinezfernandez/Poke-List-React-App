@@ -17,6 +17,7 @@ class App extends React.Component {
       <div className="page">
         <h1 className="page__title">Mi lista de pokemon</h1>
         <PokeList dataList={this.state.data}/>
+        <small className= "page__footer">&copy; Ana Martínez Fernández</small>
       </div>
     );
   }
