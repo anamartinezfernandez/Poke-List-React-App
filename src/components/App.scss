@@ -1,0 +1,12 @@
+.page {
+  text-align: center;
+  min-height: 100vh;
+  padding: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #b12b2b;
+  &__title{
+    color: rgb(29, 26, 26);
+    margin-bottom: 20px;
+  }
+}
+

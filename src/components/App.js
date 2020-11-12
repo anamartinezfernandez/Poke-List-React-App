@@ -1,5 +1,5 @@
 import React from "react";
-import '../stylesheet/index.scss';
+import "./App.scss";
 import pokemonsFromApi from "../data/pokemon.json"; 
 import PokeList from "./PokeList";
 
@@ -12,13 +12,12 @@ class App extends React.Component {
     }
   }
 
-
   render(){
     return (
-      < >
+      <div className="page">
         <h1 className="page__title">Mi lista de pokemon</h1>
         <PokeList dataList={this.state.data}/>
-      </>
+      </div>
     );
   }
 }
