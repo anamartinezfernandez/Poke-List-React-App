@@ -14,7 +14,7 @@ class Pokemon extends React.Component {
     });
     return (
       <div className="App">
-        <div>
+        <div className="pokemonItem__image--container">
           <img className="pokemonItem__image" alt={this.props.pokemon.name} src={this.props.pokemon.url}></img>
         </div>
         <div>
